@@ -1,0 +1,185 @@
+/* @override 
+	http://iviewsource.com/exercises/ajax/mystyle.css */
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.myMargin{
+    margin-top:25px;
+    margin-left: 25%;
+    
+}
+/* Modify the background color */ 
+          
+
+.navlink a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    float: right;
+    
+}
+.navbar-brand{
+    height: 120px;
+    width: 160px;
+    border: white;
+}
+.margin{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+    border:1px solid black;
+    margin-left: 30%;
+    width:40%;
+    color: white;
+
+}
+body{
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-position: center ;
+     
+}
+ .cardmargin{
+    
+    margin-top: 10%;
+    margin-right: 5%; 
+    
+    
+}
+.pagemargin{
+    margin-top: 50%;
+}
+.image{
+    
+    border: 4px solid black ;
+    padding: 3px;
+    float: left;
+    
+}
+.imgMargin{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.district-Margin{
+    margin-top:25px;
+    margin-left: 25%;
+    
+}
+
+
+    
+.textcont{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:26%;
+    margin-top: 5%;
+    padding: 5px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    width: 48%;
+
+}
+.content-para{
+    padding: 4px;
+}
+.navbar-header {
+    background:transparent;
+}
+.ol breadcrumb{
+    background:transparent;}
+.headtext{
+    text-align: center;
+    background:rgba(107, 153, 223, 0.541);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    color:rgb(24, 51, 14);
+}
+.alter-form{
+    background:rgba(206, 216, 226, 0.507);
+    padding: 15px;
+    border-radius: 4%;
+    width: 20em;
+}
+.signup-padding{
+    width: 30em;
+    background:rgba(231, 213, 220, 0.514);
+    padding: 15px;
+    margin-left:28% ;
+    margin-top: 8%;
+    height: 20em;
+    border: 2px solid  black;
+    border-radius: 0;}
+    
+#heads{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+
+}
+.labels{
+    float:right;
+    padding-right: 25%;
+    border: 1px solid black;
+     
+}
+#submit{
+    margin-left: 45%;
+    margin-top: 8%;
+    padding: 10px;
+    color: rgb(248, 245, 245);
+    background-color: rgba(79, 74, 105, 0.767);
+}
+ 
+#error{
+    /* margin-right: 30%; */
+
+    text-align: center;
+    
+    color: rgb(150, 17, 12);
+}
+.container {
+    padding: 2rem 0rem;
+  }
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+  .table-image {
+    td, th {
+      vertical-align: middle;
+    }
+  }
+  #search{
+	  margin-top: 2%;
+      margin-left: 45%;
+      padding: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+
+      
+  }
+  #titlewishes{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #hi{
+	  text-align: center;
+	  margin-top: 2%;
+  }
+
