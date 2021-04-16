@@ -1,10 +1,10 @@
 
 var password=document.getElementById("pwd");
-function check(findpage){
+function check(){
 	if(password==="12345"&& email==="admin"){
 
 	
-	findpage();
+	return true;
 }
 	else{
 	alert("wrong username or password");
@@ -18,29 +18,7 @@ function check(findpage){
 
 
 
-function findpage() {
-	// var searchField = $('#search').val();
-	// var myExp = new RegExp(searchField, "i");
-	
-	$.getJSON('data.json', function(data) {
-		var output="";
-		$.each(data, function(key, val) {
-			 
-			
-		 output +='<tr class="table-danger">'+'<td>'+'<input id="myCheck" type="checkbox">'+'</td>'+ '<td>'+val.title +'</td>'+'</tr>';	
-				
-		});
-		$('#rowtask').html(output);
-		
-		
-		
-		
-	});//get JSON
-}
-
-
-
-// $('#search').click(function() {
+// function findpage() {
 // 	// var searchField = $('#search').val();
 // 	// var myExp = new RegExp(searchField, "i");
 	
@@ -57,8 +35,30 @@ function findpage() {
 		
 		
 		
-// 	}); //get JSON
-// });
+// 	});//get JSON
+// }
+
+
+
+$('#search').click(function() {
+	// var searchField = $('#search').val();
+	// var myExp = new RegExp(searchField, "i");
+	
+	$.getJSON('data.json', function(data) {
+		var output="";
+		$.each(data, function(key, val) {
+			 
+			
+		 output +='<tr class="table-danger">'+'<td>'+'<input id="myCheck" type="checkbox">'+'</td>'+ '<td>'+val.title +'</td>'+'</tr>';	
+				
+		});
+		$('#rowtask').html(output);
+		
+		
+		
+		
+	}); //get JSON
+});
 
 
 				
